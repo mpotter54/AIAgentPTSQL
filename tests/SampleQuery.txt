@@ -1,0 +1,6 @@
+def_qry = '''Get the top 100 Sales.SalesPerson.BusinessEntityID with the most Sales.SalesPerson.SalesLastYear in grid format. 
+Please include Sales.SalesPerson.BusinessEntityID, Sales.SalesPerson.SalesLastYear, Person.LastName,and Person.FirstName in the final answer. 
+Please order by Sales.SalesPerson.SalesLastYear in descending order.
+Please format SalesLastYear in currency format rounded to the whole dollar.  Show zero decimal places.
+Please only show rows where SalesLastYear is greater than zero.
+'''
